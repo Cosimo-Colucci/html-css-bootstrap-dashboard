@@ -1,0 +1,13 @@
+/* header */
+section.header {
+    background-color: #ffffff;
+    width: 100%;
+    /* da rimuovere */
+    height: 60px;
+}
+div.logo {
+    width: 60px;
+}
+div.dropdown ul {
+    list-style-type: none;
+}
