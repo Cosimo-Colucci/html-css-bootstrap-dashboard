@@ -26,9 +26,26 @@ div.settings {
 }
 
 /* main */
-div.upper {
+div.main_content {
     width: calc(100% - 70px);
 }
+
+div.next_class {
+    border: 1px solid rgb(189, 182, 182);
+    border-radius: 5px;
+}
+
+td img {
+    width: 24px;
+    margin-right: 1rem;
+}
+
+
+
+
+
+
+
 
 
 /* query */
@@ -40,7 +57,7 @@ div.upper {
         width: 140px;
     }
     
-    div.upper {
+    div.main_content {
         width: calc(100% - 140px);
     }
     
