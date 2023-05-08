@@ -12,11 +12,20 @@ div.dropdown ul {
     list-style-type: none;
 }
 
-/* main */
+/* sidebar */
 div.sidebar {
+    background-color: #051e34;
+    color: #ffffff;
+    height: calc(100vh - 60px);
     width: 70px;
+    margin: 0 auto;
+}
+div.control,
+div.settings {
+    margin: 0 auto;
 }
 
+/* main */
 div.upper {
     width: calc(100% - 70px);
 }
@@ -26,11 +35,13 @@ div.upper {
 @media screen and (min-width:992px) {
 
     div.sidebar {
-        width: 150px;
+        background: url(../img/sidebar-bg.png);
+        background-color: #051e34;
+        width: 140px;
     }
     
     div.upper {
-        width: calc(100% - 150px);
+        width: calc(100% - 140px);
     }
     
 }
