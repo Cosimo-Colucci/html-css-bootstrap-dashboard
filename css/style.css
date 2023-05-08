@@ -17,7 +17,7 @@ div.sidebar {
     background-color: #051e34;
     color: #ffffff;
     height: calc(100vh - 60px);
-    width: 70px;
+    width: 60px;
     margin: 0 auto;
 }
 div.control,
@@ -44,10 +44,13 @@ td img {
 
 
 
-div.faq {
+div.faq,
+div.todo,
+div.list {
     border: 1px solid rgb(189, 182, 182);
     border-radius: 5px;
 }
+
 
 
 
@@ -59,11 +62,11 @@ div.faq {
     div.sidebar {
         background: url(../img/sidebar-bg.png);
         background-color: #051e34;
-        width: 140px;
+        width: 120px;
     }
     
     div.main_content {
-        width: calc(100% - 140px);
+        width: calc(100% - 100px);
     }
     
 }
