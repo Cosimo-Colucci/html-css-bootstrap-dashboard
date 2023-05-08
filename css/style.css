@@ -11,3 +11,26 @@ div.logo {
 div.dropdown ul {
     list-style-type: none;
 }
+
+/* main */
+div.sidebar {
+    width: 70px;
+}
+
+div.upper {
+    width: calc(100% - 70px);
+}
+
+
+/* query */
+@media screen and (min-width:992px) {
+
+    div.sidebar {
+        width: 150px;
+    }
+    
+    div.upper {
+        width: calc(100% - 150px);
+    }
+    
+}
