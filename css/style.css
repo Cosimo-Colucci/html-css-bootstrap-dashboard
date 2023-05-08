@@ -28,6 +28,8 @@ div.settings {
 /* main */
 div.main_content {
     width: calc(100% - 70px);
+    height: calc(100vh - 60px);
+    overflow-y: scroll;
 }
 
 div.next_class {
@@ -42,7 +44,10 @@ td img {
 
 
 
-
+div.faq {
+    border: 1px solid rgb(189, 182, 182);
+    border-radius: 5px;
+}
 
 
 
